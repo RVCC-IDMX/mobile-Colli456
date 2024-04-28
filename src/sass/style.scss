@@ -53,6 +53,15 @@ svg {
     font-size: 1.1em;
 }
 
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10ch, 1fr));
+    list-style: none;
+    padding: 0 1em;
+    margin: 0;
+    grid-gap: 0.8rem;
+  }
+
 // .skip-link {
 //     position: absolute;
 //     left: -9999px;
